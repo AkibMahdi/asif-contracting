@@ -49,7 +49,7 @@ export default function Header() {
       {/* Main nav */}
       <header className="bg-white sticky top-0 z-50 shadow-md">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-24">
             {/* Logo */}
             <Link href="/" className="flex items-center">
               <Image
@@ -57,7 +57,7 @@ export default function Header() {
                 alt="Asif Contracting Corp"
                 width={300}
                 height={200}
-                className="h-32 md:h-40 w-auto"
+                className="h-20 md:h-[5.5rem] w-auto"
                 priority
               />
             </Link>
