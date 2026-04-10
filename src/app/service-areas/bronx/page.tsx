@@ -9,7 +9,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Construction Contractor Bronx NY | Asif Contracting',
   description:
-    'Licensed Bronx construction contractor with 21+ years of experience. Home renovations, multi-family construction, gut rehabs, and new builds in Riverdale, Pelham Bay, Fordham & more. Free estimates.',
+    'Licensed Bronx construction contractor with 25+ years of experience. Home renovations, multi-family construction, gut rehabs, and new builds in Riverdale, Pelham Bay, Fordham & more. Free estimates.',
   alternates: { canonical: '/service-areas/bronx' },
 };
 

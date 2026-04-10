@@ -77,7 +77,7 @@ const posts: Record<string, {
     readTime: '6 min read',
     date: 'February 20, 2026',
     content: [
-      'Hiring the wrong contractor in NYC can cost you tens of thousands of dollars, months of delays, and enormous stress. After 21+ years in the business, we have seen every mistake homeowners make. Here are the seven biggest red flags to watch for — and what to look for instead.',
+      'Hiring the wrong contractor in NYC can cost you tens of thousands of dollars, months of delays, and enormous stress. After 25+ years in the business, we have seen every mistake homeowners make. Here are the seven biggest red flags to watch for — and what to look for instead.',
       '## 1. No NYC Home Improvement License',
       'In NYC, any contractor performing home improvement work must hold an active NYC Home Improvement Contractor (HIC) license issued by the Department of Consumer and Worker Protection. This is non-negotiable. Verify the license at nyc.gov before signing anything. An unlicensed contractor cannot legally pull permits, which means your project will either skip permits (illegal) or use another entity\'s license (also illegal).',
       '## 2. No Written Contract',
@@ -87,7 +87,7 @@ const posts: Record<string, {
       '## 4. No Insurance Certificates',
       'At minimum, your contractor should carry general liability insurance ($1M-$2M minimum for NYC) and workers\' compensation insurance. Request a Certificate of Insurance and verify it is current. In co-ops and condos, the building will require being named as additionally insured — if your contractor cannot provide this, they cannot work in most NYC buildings.',
       '## 5. No References or Portfolio',
-      'Ask for at least three recent references in NYC and follow up with every one. Ask about timeline accuracy, communication, quality, and whether there were unexpected costs. A contractor with 21+ years of experience should have plenty of happy clients willing to vouch for them.',
+      'Ask for at least three recent references in NYC and follow up with every one. Ask about timeline accuracy, communication, quality, and whether there were unexpected costs. A contractor with 25+ years of experience should have plenty of happy clients willing to vouch for them.',
       '## 6. Extremely Low Bid',
       'If one bid is 30-40% lower than the others, something is wrong. The contractor may be planning to cut corners on materials, use unlicensed subcontractors, skip permits, or hit you with change orders once the project is underway. In NYC construction, you generally get what you pay for.',
       '## 7. Poor Communication From Day One',
@@ -314,7 +314,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <div className="mt-12 bg-gray-50 rounded-2xl p-8 border border-gray-100">
             <h3 className="text-xl font-bold text-navy mb-2">About Asif Contracting</h3>
             <p className="text-gray-600 mb-4">
-              Asif Contracting Corp is a licensed NYC general contractor with 21+ years of
+              Asif Contracting Corp is a licensed NYC general contractor with 25+ years of
               experience in residential and commercial construction across all five boroughs.
               We specialize in renovations, new construction, and structural alterations.
             </p>

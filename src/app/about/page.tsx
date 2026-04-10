@@ -5,9 +5,9 @@ import TrustBadges from '@/components/TrustBadges';
 import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
-  title: 'About Asif Contracting Corp | 21+ Years Building NYC',
+  title: 'About Asif Contracting Corp | 25+ Years Building NYC',
   description:
-    'Learn about Asif Contracting Corp — a family-founded NYC construction company with 21+ years of experience, 500+ completed projects, and a reputation for honest work across all 5 boroughs.',
+    'Learn about Asif Contracting Corp — a family-founded NYC construction company with 25+ years of experience, 500+ completed projects, and a reputation for honest work across all 5 boroughs.',
   alternates: { canonical: '/about' },
 };
 
@@ -42,10 +42,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <span className="text-gold font-semibold text-sm uppercase tracking-wider">About Us</span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-3 mb-6">
-            21+ Years Building<br className="hidden md:block" /> New York City
+            25+ Years Building<br className="hidden md:block" /> New York City
           </h1>
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            From a small crew in 2004 to one of NYC&apos;s most trusted general contractors. We built this company the same way we build your projects — with honesty, hard work, and zero shortcuts.
+            From a small crew in 2000 to one of NYC&apos;s most trusted general contractors. We built this company the same way we build your projects — with honesty, hard work, and zero shortcuts.
           </p>
         </div>
       </section>

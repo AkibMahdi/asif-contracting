@@ -95,7 +95,7 @@ export default function HomePage() {
               <span className="text-gold block">Construction Company</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-lg leading-relaxed">
-              21+ years of building, renovating, and transforming properties across all 5 boroughs. Licensed, insured, and backed by hundreds of 5-star reviews.
+              25+ years of building, renovating, and transforming properties across all 5 boroughs. Licensed, insured, and backed by hundreds of 5-star reviews.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -178,7 +178,7 @@ export default function HomePage() {
                   { title: 'Transparent Pricing, No Surprises', desc: 'We give you a detailed, written estimate before work begins. The price we quote is the price you pay — period.' },
                   { title: 'On-Time, Every Time', desc: 'We set realistic timelines and stick to them. You\'ll get daily progress updates so you\'re never left guessing.' },
                   { title: 'Licensed, Insured, DOB Compliant', desc: 'Full NYC Department of Buildings compliance. We handle all permits, inspections, and paperwork so you don\'t have to.' },
-                  { title: '21+ Years, Zero Shortcuts', desc: 'We\'ve been doing this since 2004. Every project gets the same attention to detail — whether it\'s a bathroom remodel or a full build.' },
+                  { title: '25+ Years, Zero Shortcuts', desc: 'We\'ve been doing this since 2000. Every project gets the same attention to detail — whether it\'s a bathroom remodel or a full build.' },
                   { title: 'Your Satisfaction, Guaranteed', desc: 'We don\'t consider a project done until you do. Final walkthrough and sign-off before your last payment.' },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
@@ -320,7 +320,7 @@ export default function HomePage() {
       {/* ===== FINAL CTA ===== */}
       <CTASection
         heading="Let's Build Something Great Together"
-        subheading="21+ years. 500+ projects. 1,000+ happy clients. Your project could be next."
+        subheading="25+ years. 500+ projects. 1,000+ happy clients. Your project could be next."
         variant="navy"
       />
     </>

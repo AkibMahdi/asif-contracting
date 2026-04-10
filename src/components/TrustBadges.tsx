@@ -1,7 +1,7 @@
 import { Shield, Award, Clock, Users, Star, Building2 } from 'lucide-react';
 
 const badges = [
-  { icon: Clock, label: '21+ Years', sublabel: 'Serving NYC' },
+  { icon: Clock, label: '25+ Years', sublabel: 'Serving NYC' },
   { icon: Building2, label: '500+', sublabel: 'Projects Done' },
   { icon: Star, label: '4.9/5', sublabel: 'Google Rating' },
   { icon: Shield, label: 'Licensed', sublabel: 'NYC & Nassau' },

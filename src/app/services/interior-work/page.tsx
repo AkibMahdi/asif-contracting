@@ -8,7 +8,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Interior Construction NYC | Drywall, Flooring & Finishing Experts',
   description:
-    'Expert interior construction in NYC — drywall installation, plastering, hardwood & tile flooring, trim work, and professional painting. Licensed NYC contractor with 21+ years experience. Free estimates across all 5 boroughs.',
+    'Expert interior construction in NYC — drywall installation, plastering, hardwood & tile flooring, trim work, and professional painting. Licensed NYC contractor with 25+ years experience. Free estimates across all 5 boroughs.',
   alternates: { canonical: '/services/interior-work' },
   keywords: [
     'drywall contractor NYC',
@@ -153,7 +153,7 @@ export default function InteriorWorkPage() {
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               The details make the difference. From perfectly smooth walls to stunning hardwood
               floors, Asif Contracting&apos;s skilled tradesmen deliver the interior craftsmanship
-              that turns a construction project into a finished home. 21+ years serving all five
+              that turns a construction project into a finished home. 25+ years serving all five
               boroughs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

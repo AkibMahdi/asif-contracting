@@ -8,7 +8,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Structural Alterations NYC | Wall Removals, Additions & DOB Permits',
   description:
-    'Licensed NYC contractor for structural alterations — load-bearing wall removals, building additions, floor openings, and DOB alteration permits. PE-stamped plans, full permit management. 21+ years experience. Free estimates.',
+    'Licensed NYC contractor for structural alterations — load-bearing wall removals, building additions, floor openings, and DOB alteration permits. PE-stamped plans, full permit management. 25+ years experience. Free estimates.',
   alternates: { canonical: '/services/alterations' },
   keywords: [
     'structural alterations NYC',
@@ -124,7 +124,7 @@ export default function AlterationsPage() {
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               Load-bearing wall removals, building additions, floor openings, and structural
               modifications — done right with PE-stamped plans, proper permits, and experienced
-              crews. Asif Contracting has been altering NYC buildings for for 21+ years.
+              crews. Asif Contracting has been altering NYC buildings for for 25+ years.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

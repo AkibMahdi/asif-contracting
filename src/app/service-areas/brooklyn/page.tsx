@@ -9,7 +9,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Construction Contractor Brooklyn NY | Asif Contracting',
   description:
-    'Brooklyn construction contractor with 21+ years of experience. Brownstone renovations, townhouse remodeling, row house conversions, and new construction. Park Slope, Williamsburg, DUMBO & more. Free estimates.',
+    'Brooklyn construction contractor with 25+ years of experience. Brownstone renovations, townhouse remodeling, row house conversions, and new construction. Park Slope, Williamsburg, DUMBO & more. Free estimates.',
   alternates: { canonical: '/service-areas/brooklyn' },
 };
 
@@ -83,7 +83,7 @@ export default function BrooklynPage() {
             Brooklyn Construction Contractor
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Brownstone guts in Park Slope. Townhouse conversions in Bed-Stuy. New builds in Bushwick. Asif Contracting has been shaping Brooklyn for 21+ years.
+            Brownstone guts in Park Slope. Townhouse conversions in Bed-Stuy. New builds in Bushwick. Asif Contracting has been shaping Brooklyn for 25+ years.
           </p>
         </div>
       </section>

@@ -9,7 +9,7 @@ interface CTASectionProps {
 
 export default function CTASection({
   heading = "Ready to Transform Your Space?",
-  subheading = "Get a free, no-obligation estimate from NYC's most trusted construction team. 21+ years of excellence.",
+  subheading = "Get a free, no-obligation estimate from NYC's most trusted construction team. 25+ years of excellence.",
   variant = 'navy'
 }: CTASectionProps) {
   const bgClass = variant === 'navy' ? 'gradient-navy' : variant === 'orange' ? 'bg-orange' : 'gradient-gold';

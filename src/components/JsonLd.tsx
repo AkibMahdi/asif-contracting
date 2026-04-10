@@ -8,10 +8,10 @@ export default function JsonLd() {
     logo: "https://asifcontracting.com/logo.png",
     image: "https://asifcontracting.com/og-image.jpg",
     description:
-      "NYC's premier construction company with 21+ years of experience. Licensed and insured general contractor specializing in home improvement, new construction, remodeling, alterations, interior and exterior work across all 5 boroughs of New York City.",
+      "NYC's premier construction company with 25+ years of experience. Licensed and insured general contractor specializing in home improvement, new construction, remodeling, alterations, interior and exterior work across all 5 boroughs of New York City.",
     telephone: "+1-718-686-6550",
     email: "mohsin1997@yahoo.com",
-    foundingDate: "2004",
+    foundingDate: "2000",
     numberOfEmployees: {
       "@type": "QuantitativeValue",
       minValue: 20,

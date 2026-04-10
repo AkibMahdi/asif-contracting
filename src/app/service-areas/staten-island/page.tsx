@@ -9,7 +9,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Construction Contractor Staten Island NY | Asif Contracting',
   description:
-    'Licensed Staten Island construction contractor with 21+ years of experience. Home renovations, new construction, additions, roofing & exterior work in Tottenville, Great Kills, St. George & more. Free estimates.',
+    'Licensed Staten Island construction contractor with 25+ years of experience. Home renovations, new construction, additions, roofing & exterior work in Tottenville, Great Kills, St. George & more. Free estimates.',
   alternates: { canonical: '/service-areas/staten-island' },
 };
 

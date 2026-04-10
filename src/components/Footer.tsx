@@ -43,7 +43,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">
-              NYC&apos;s premier construction company with 21+ years of experience delivering exceptional results. Licensed, insured, and trusted by thousands of New Yorkers.
+              NYC&apos;s premier construction company with 25+ years of experience delivering exceptional results. Licensed, insured, and trusted by thousands of New Yorkers.
             </p>
             <div className="space-y-2 text-sm">
               <a href="tel:+17186866550" className="flex items-center gap-2 text-gray-300 hover:text-gold transition-colors">
@@ -101,7 +101,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2 text-gray-300">
                 <span className="text-gold font-bold mt-0.5">&#10003;</span>
-                21+ Years Serving NYC
+                25+ Years Serving NYC
               </li>
               <li className="flex items-start gap-2 text-gray-300">
                 <span className="text-gold font-bold mt-0.5">&#10003;</span>

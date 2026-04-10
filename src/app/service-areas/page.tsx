@@ -7,7 +7,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'NYC Service Areas | All 5 Boroughs',
   description:
-    'Asif Contracting Corp serves all 5 NYC boroughs — Manhattan, Brooklyn, Queens, Bronx & Staten Island. 21+ years of trusted construction, remodeling, and renovation work across New York City.',
+    'Asif Contracting Corp serves all 5 NYC boroughs — Manhattan, Brooklyn, Queens, Bronx & Staten Island. 25+ years of trusted construction, remodeling, and renovation work across New York City.',
   alternates: { canonical: '/service-areas' },
 };
 
@@ -63,7 +63,7 @@ export default function ServiceAreasPage() {
             NYC Construction — Every Borough, Every Block
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            From Riverdale to Tottenville, Asif Contracting has spent 21+ years building, renovating, and remodeling across every corner of New York City.
+            From Riverdale to Tottenville, Asif Contracting has spent 25+ years building, renovating, and remodeling across every corner of New York City.
           </p>
         </div>
       </section>

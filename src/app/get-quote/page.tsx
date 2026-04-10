@@ -5,7 +5,7 @@ import TestimonialCard from '@/components/TestimonialCard';
 
 export const metadata: Metadata = {
   title: 'Get a Free Estimate | NYC Construction | Asif Contracting',
-  description: 'Request your free, no-obligation construction estimate from NYC\'s most trusted contractor. 21+ years experience, licensed & insured. Response within 2 hours.',
+  description: 'Request your free, no-obligation construction estimate from NYC\'s most trusted contractor. 25+ years experience, licensed & insured. Response within 2 hours.',
   alternates: { canonical: '/get-quote' },
   robots: { index: true, follow: true },
 };
@@ -42,7 +42,7 @@ export default function GetQuotePage() {
               {/* Trust signals */}
               <div className="grid grid-cols-2 gap-4 mb-8">
                 {[
-                  { icon: Clock, text: '21+ Years Experience' },
+                  { icon: Clock, text: '25+ Years Experience' },
                   { icon: Shield, text: 'Licensed & Insured' },
                   { icon: Star, text: '4.9/5 Google Rating' },
                   { icon: Users, text: '1,000+ Happy Clients' },

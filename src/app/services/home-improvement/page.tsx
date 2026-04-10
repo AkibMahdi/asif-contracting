@@ -8,7 +8,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Home Improvement Contractor NYC | Renovations & Upgrades',
   description:
-    'Full-service home improvement contractor in NYC. Kitchen upgrades, bathroom renovations, window replacement, plumbing, electrical, and whole-home modernization. Licensed, insured, 21+ years experience. Free estimates.',
+    'Full-service home improvement contractor in NYC. Kitchen upgrades, bathroom renovations, window replacement, plumbing, electrical, and whole-home modernization. Licensed, insured, 25+ years experience. Free estimates.',
   alternates: { canonical: '/services/home-improvement' },
   keywords: [
     'home improvement NYC',
@@ -146,7 +146,7 @@ export default function HomeImprovementPage() {
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               From a single room upgrade to a whole-home modernization, Asif Contracting delivers
               practical, high-quality home improvements across all five boroughs. Licensed, insured,
-              and trusted by NYC homeowners for 21+ years.
+              and trusted by NYC homeowners for 25+ years.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -252,7 +252,7 @@ export default function HomeImprovementPage() {
                 Home Improvement Done Right the First Time
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                After 21+ years of improving homes across Manhattan, Brooklyn, Queens, the Bronx,
+                After 25+ years of improving homes across Manhattan, Brooklyn, Queens, the Bronx,
                 and Staten Island, we have seen every type of home and every type of challenge.
                 That experience means fewer surprises and better results.
               </p>

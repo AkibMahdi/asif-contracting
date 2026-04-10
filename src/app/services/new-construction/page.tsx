@@ -8,7 +8,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'New Construction Contractor NYC | Ground-Up Builds & Development',
   description:
-    'Licensed NYC new construction contractor. Ground-up residential, multi-family, and mixed-use builds across all 5 boroughs. From foundation to certificate of occupancy. 21+ years experience. Free estimates.',
+    'Licensed NYC new construction contractor. Ground-up residential, multi-family, and mixed-use builds across all 5 boroughs. From foundation to certificate of occupancy. 25+ years experience. Free estimates.',
   alternates: { canonical: '/services/new-construction' },
   keywords: [
     'new construction NYC',
@@ -137,7 +137,7 @@ export default function NewConstructionPage() {
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               Building from scratch demands a contractor who can manage every phase — permits,
               foundation, framing, mechanical systems, finishing, and final inspections. Asif
-              Contracting has been delivering new construction across NYC for for 21+ years.
+              Contracting has been delivering new construction across NYC for for 25+ years.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -256,7 +256,7 @@ export default function NewConstructionPage() {
               </p>
               <ul className="space-y-4">
                 {[
-                  '21+ years of new construction experience across all five boroughs',
+                  '25+ years of new construction experience across all five boroughs',
                   'In-house crews for foundation, framing, mechanical, and finishing',
                   'DOB permit management from NB filing through CO',
                   'Weekly progress updates with photo documentation',

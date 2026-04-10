@@ -14,11 +14,11 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   metadataBase: new URL("https://asifcontracting.com"),
   title: {
-    default: "Asif Contracting Corp | NYC's #1 Construction Company | 21+ Years",
+    default: "Asif Contracting Corp | NYC's #1 Construction Company | 25+ Years",
     template: "%s | Asif Contracting Corp - NYC Construction",
   },
   description:
-    "NYC's most trusted construction company with 21+ years of experience. Licensed & insured general contractor specializing in renovations, new construction, remodeling, and more across all 5 boroughs. Free estimates.",
+    "NYC's most trusted construction company with 25+ years of experience. Licensed & insured general contractor specializing in renovations, new construction, remodeling, and more across all 5 boroughs. Free estimates.",
   keywords: [
     "NYC construction company",
     "general contractor NYC",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Asif Contracting Corp",
     title: "Asif Contracting Corp | NYC's #1 Construction Company",
     description:
-      "21+ years building NYC. Licensed & insured general contractor for renovations, new construction, remodeling & more. Free estimates across all 5 boroughs.",
+      "25+ years building NYC. Licensed & insured general contractor for renovations, new construction, remodeling & more. Free estimates across all 5 boroughs.",
     images: [
       {
         url: "/og-image.jpg",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Asif Contracting Corp | NYC's #1 Construction Company",
-    description: "21+ years building NYC. Licensed & insured general contractor. Free estimates.",
+    description: "25+ years building NYC. Licensed & insured general contractor. Free estimates.",
   },
   robots: {
     index: true,

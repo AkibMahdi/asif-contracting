@@ -9,7 +9,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Construction Contractor Manhattan NY | Asif Contracting',
   description:
-    'Licensed Manhattan construction contractor with 21+ years of experience. Apartment renovations, brownstone remodeling, commercial fit-outs, and pre-war restoration. Co-op & condo board approved. Free estimates.',
+    'Licensed Manhattan construction contractor with 25+ years of experience. Apartment renovations, brownstone remodeling, commercial fit-outs, and pre-war restoration. Co-op & condo board approved. Free estimates.',
   alternates: { canonical: '/service-areas/manhattan' },
 };
 

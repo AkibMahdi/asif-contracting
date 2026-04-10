@@ -9,7 +9,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Construction Contractor Queens NY | Asif Contracting',
   description:
-    'Licensed Queens construction contractor with 21+ years of experience. Home renovations, new construction, additions, and remodeling in Astoria, Flushing, Jamaica, Forest Hills & more. Free estimates.',
+    'Licensed Queens construction contractor with 25+ years of experience. Home renovations, new construction, additions, and remodeling in Astoria, Flushing, Jamaica, Forest Hills & more. Free estimates.',
   alternates: { canonical: '/service-areas/queens' },
 };
 

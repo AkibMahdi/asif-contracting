@@ -8,7 +8,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Kitchen & Bathroom Remodeling NYC | Expert Remodeling Contractor',
   description:
-    'Top-rated kitchen, bathroom & basement remodeling in NYC. Asif Contracting Corp delivers stunning remodels across Manhattan, Brooklyn, Queens & all 5 boroughs. Licensed, insured, 21+ years experience. Free estimates.',
+    'Top-rated kitchen, bathroom & basement remodeling in NYC. Asif Contracting Corp delivers stunning remodels across Manhattan, Brooklyn, Queens & all 5 boroughs. Licensed, insured, 25+ years experience. Free estimates.',
   alternates: { canonical: '/services/remodeling' },
   keywords: [
     'kitchen remodeling NYC',
@@ -116,7 +116,7 @@ export default function RemodelingPage() {
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               From cramped galley kitchens to spa-worthy bathrooms, Asif Contracting has been
-              delivering stunning remodels across all five boroughs for for 21+ years. Licensed,
+              delivering stunning remodels across all five boroughs for for 25+ years. Licensed,
               insured, and DOB-approved — we handle design, permits, and construction so you get
               a flawless result without the stress.
             </p>
@@ -245,7 +245,7 @@ export default function RemodelingPage() {
                 Why NYC Homeowners Choose Asif Contracting for Remodeling
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                After 21+ years and hundreds of completed remodels across Manhattan, Brooklyn,
+                After 25+ years and hundreds of completed remodels across Manhattan, Brooklyn,
                 Queens, the Bronx, and Staten Island, we have earned a reputation as one of
                 NYC&apos;s most reliable remodeling contractors. Here is what sets us apart.
               </p>

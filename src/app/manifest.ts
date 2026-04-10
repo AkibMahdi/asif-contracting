@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Asif Contracting Corp',
     short_name: 'Asif Contracting',
-    description: "NYC's #1 Construction Company — 21+ Years of Excellence",
+    description: "NYC's #1 Construction Company — 25+ Years of Excellence",
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

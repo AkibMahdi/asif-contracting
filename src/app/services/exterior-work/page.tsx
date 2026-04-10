@@ -8,7 +8,7 @@ import TrustBadges from '@/components/TrustBadges';
 export const metadata: Metadata = {
   title: 'Exterior Contractor NYC | Roofing, Siding, Masonry & Facades',
   description:
-    'Expert exterior construction in NYC — roofing, siding, masonry, facade restoration, waterproofing, and stoop rebuilds. Licensed NYC contractor with 21+ years experience. Free estimates across all 5 boroughs.',
+    'Expert exterior construction in NYC — roofing, siding, masonry, facade restoration, waterproofing, and stoop rebuilds. Licensed NYC contractor with 25+ years experience. Free estimates across all 5 boroughs.',
   alternates: { canonical: '/services/exterior-work' },
   keywords: [
     'exterior contractor NYC',
@@ -124,7 +124,7 @@ export default function ExteriorWorkPage() {
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               Your building&apos;s exterior is its first line of defense against NYC weather and its
               first impression on everyone who walks by. Asif Contracting delivers exterior
-              construction that looks great and lasts — 21+ years across all five boroughs.
+              construction that looks great and lasts — 25+ years across all five boroughs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

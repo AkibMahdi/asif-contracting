@@ -63,7 +63,7 @@ export default function ServicesPage() {
             NYC Construction Services
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            From kitchen remodels to ground-up builds — Asif Contracting delivers full-service construction across all 5 boroughs with 21+ years of proven excellence.
+            From kitchen remodels to ground-up builds — Asif Contracting delivers full-service construction across all 5 boroughs with 25+ years of proven excellence.
           </p>
         </div>
       </section>
