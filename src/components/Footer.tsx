@@ -38,9 +38,9 @@ export default function Footer() {
               <Image
                 src="/logo.png"
                 alt="Asif Contracting Corp"
-                width={280}
-                height={187}
-                className="h-16 w-auto brightness-0 invert"
+                width={400}
+                height={267}
+                className="h-24 w-auto brightness-0 invert"
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">

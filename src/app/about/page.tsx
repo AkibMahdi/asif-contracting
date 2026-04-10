@@ -71,13 +71,13 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          <div className="bg-navy/5 rounded-2xl h-80 lg:h-[420px] flex items-center justify-center p-8">
+          <div className="bg-navy/5 rounded-2xl h-80 lg:h-[420px] flex items-center justify-center p-12">
             <Image
               src="/logo.png"
               alt="Asif Contracting Corp"
-              width={600}
-              height={400}
-              className="max-h-64 w-auto"
+              width={800}
+              height={533}
+              className="w-full max-w-md"
             />
           </div>
         </div>
