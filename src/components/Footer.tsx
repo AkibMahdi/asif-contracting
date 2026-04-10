@@ -34,13 +34,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Company Info */}
           <div>
-            <div className="mb-4">
+            <div className="mb-4 bg-white rounded-lg p-3 inline-block">
               <Image
                 src="/logo.png"
                 alt="Asif Contracting Corp"
                 width={400}
                 height={267}
-                className="h-24 w-auto brightness-0 invert"
+                className="h-16 w-auto"
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">
