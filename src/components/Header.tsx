@@ -57,7 +57,7 @@ export default function Header() {
                 alt="Asif Contracting Corp"
                 width={300}
                 height={200}
-                className="h-16 md:h-20 w-auto"
+                className="h-32 md:h-40 w-auto"
                 priority
               />
             </Link>
