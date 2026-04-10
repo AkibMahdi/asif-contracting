@@ -7,7 +7,7 @@ import CTASection from '@/components/CTASection';
 export const metadata: Metadata = {
   title: 'Contact Us | Asif Contracting Corp NYC',
   description:
-    'Contact Asif Contracting Corp for a free construction estimate in NYC. Call (917) 353-8999 or fill out our form. We respond within 2 hours during business hours.',
+    'Contact Asif Contracting Corp for a free construction estimate in NYC. Call (718) 686-6550 or fill out our form. We respond within 2 hours during business hours.',
   alternates: { canonical: '/contact' },
 };
 
@@ -15,8 +15,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '(917) 353-8999',
-    href: 'tel:+19173538999',
+    value: '(718) 686-6550',
+    href: 'tel:+17186866550',
     note: 'Mon-Sat, 7 AM - 7 PM',
   },
   {
@@ -29,7 +29,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Office',
-    value: '75 Harden St, Brooklyn, NY 11234',
+    value: '63 Church Avenue, Brooklyn, NY 11218',
     href: null,
     note: 'Serving all 5 boroughs + Nassau County',
   },
@@ -112,7 +112,7 @@ export default function ContactPage() {
                   <div className="font-bold text-navy text-sm mb-1">Emergency / After-Hours?</div>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     For urgent construction issues — water damage, structural concerns, or safety hazards — call us directly at{' '}
-                    <a href="tel:+19173538999" className="text-orange font-bold">(917) 353-8999</a>.
+                    <a href="tel:+17186866550" className="text-orange font-bold">(718) 686-6550</a>.
                     We will get back to you as soon as possible.
                   </p>
                 </div>
@@ -123,7 +123,7 @@ export default function ContactPage() {
             <div className="rounded-2xl overflow-hidden border border-gray-200 h-48">
               <iframe
                 title="Asif Contracting Corp Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.1!2d-73.927!3d40.618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244e3e0c8c6f7%3A0x0!2s75+Harden+St%2C+Brooklyn%2C+NY+11234!5e0!3m2!1sen!2sus!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.5!2d-73.978!3d40.650!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s63+Church+Avenue%2C+Brooklyn%2C+NY+11218!5e0!3m2!1sen!2sus!4v1"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

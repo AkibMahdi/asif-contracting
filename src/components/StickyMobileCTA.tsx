@@ -8,7 +8,7 @@ export default function StickyMobileCTA() {
     <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white border-t-2 border-orange shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
       <div className="grid grid-cols-2 divide-x divide-gray-200">
         <a
-          href="tel:+19173538999"
+          href="tel:+17186866550"
           className="flex items-center justify-center gap-2 py-3.5 bg-navy text-white font-bold text-sm"
         >
           <Phone className="w-5 h-5" />

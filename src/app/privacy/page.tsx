@@ -82,7 +82,7 @@ export default function PrivacyPage() {
           <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-6">
             <li>Message and data rates may apply depending on your carrier and plan.</li>
             <li>You can opt out of text messages at any time by replying <strong>STOP</strong> to any message you receive from us.</li>
-            <li>For help, reply <strong>HELP</strong> or contact us at (917) 353-8999.</li>
+            <li>For help, reply <strong>HELP</strong> or contact us at (718) 686-6550.</li>
             <li>Your phone number will not be shared with third parties for marketing purposes.</li>
             <li>Carriers are not liable for delayed or undelivered messages.</li>
           </ul>
@@ -105,9 +105,9 @@ export default function PrivacyPage() {
           <p className="text-gray-700 leading-relaxed mb-6">
             If you have any questions about this Privacy Policy, please contact us at:<br />
             <strong>Asif Contracting Corp</strong><br />
-            Phone: (917) 353-8999<br />
+            Phone: (718) 686-6550<br />
             Email: mohsin1997@yahoo.com<br />
-            75 Harden St, Brooklyn, NY 11234
+            63 Church Avenue, Brooklyn, NY 11218
           </p>
         </div>
       </section>

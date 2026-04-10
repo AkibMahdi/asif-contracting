@@ -31,11 +31,11 @@ export default function CTASection({
             Get Your Free Estimate
           </Link>
           <a
-            href="tel:+19173538999"
+            href="tel:+17186866550"
             className="flex items-center gap-2 px-8 py-4 rounded-lg font-bold text-lg border-2 border-white text-white hover:bg-white/10 transition-colors"
           >
             <Phone className="w-5 h-5" />
-            (917) 353-8999
+            (718) 686-6550
           </a>
         </div>
         <p className="text-sm text-white/70 mt-6">

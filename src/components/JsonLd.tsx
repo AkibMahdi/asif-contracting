@@ -9,7 +9,7 @@ export default function JsonLd() {
     image: "https://asifcontracting.com/og-image.jpg",
     description:
       "NYC's premier construction company with 21+ years of experience. Licensed and insured general contractor specializing in home improvement, new construction, remodeling, alterations, interior and exterior work across all 5 boroughs of New York City.",
-    telephone: "+1-917-353-8999",
+    telephone: "+1-718-686-6550",
     email: "mohsin1997@yahoo.com",
     foundingDate: "2004",
     numberOfEmployees: {
@@ -19,10 +19,10 @@ export default function JsonLd() {
     },
     address: {
       "@type": "PostalAddress",
-      streetAddress: "75 Harden Street",
+      streetAddress: "63 Church Avenue",
       addressLocality: "Brooklyn",
       addressRegion: "NY",
-      postalCode: "11234",
+      postalCode: "11218",
       addressCountry: "US",
     },
     geo: {
@@ -121,7 +121,7 @@ export default function JsonLd() {
     logo: "https://asifcontracting.com/logo.png",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+1-917-353-8999",
+      telephone: "+1-718-686-6550",
       contactType: "customer service",
       areaServed: "US",
       availableLanguage: ["English", "Spanish", "Bengali", "Hindi", "Urdu"],

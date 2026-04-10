@@ -55,7 +55,7 @@ export default function LeadForm({ variant = 'default', heading, subheading }: L
         <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
         <h3 className="text-2xl font-bold text-navy mb-2">Thank You!</h3>
         <p className="text-gray-600 mb-4">We&apos;ve received your request. A project specialist will contact you within 2 hours during business hours.</p>
-        <p className="text-sm text-gray-500">Need immediate help? Call us at <a href="tel:+19173538999" className="text-orange font-bold">(917) 353-8999</a></p>
+        <p className="text-sm text-gray-500">Need immediate help? Call us at <a href="tel:+17186866550" className="text-orange font-bold">(718) 686-6550</a></p>
       </div>
     );
   }
@@ -176,7 +176,7 @@ export default function LeadForm({ variant = 'default', heading, subheading }: L
 
         <div className="flex items-center justify-center gap-2 text-sm text-gray-500">
           <Phone className="w-4 h-4" />
-          <span>Or call us now: <a href="tel:+19173538999" className="text-navy font-semibold">(917) 353-8999</a></span>
+          <span>Or call us now: <a href="tel:+17186866550" className="text-navy font-semibold">(718) 686-6550</a></span>
         </div>
 
         <p className="text-xs text-center text-gray-400">

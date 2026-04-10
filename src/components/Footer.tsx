@@ -13,10 +13,10 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="tel:+19173538999"
+              href="tel:+17186866550"
               className="bg-white text-orange px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors"
             >
-              Call (917) 353-8999
+              Call (718) 686-6550
             </a>
             <Link
               href="/get-quote"
@@ -46,14 +46,14 @@ export default function Footer() {
               NYC&apos;s premier construction company with 21+ years of experience delivering exceptional results. Licensed, insured, and trusted by thousands of New Yorkers.
             </p>
             <div className="space-y-2 text-sm">
-              <a href="tel:+19173538999" className="flex items-center gap-2 text-gray-300 hover:text-gold transition-colors">
-                <Phone className="w-4 h-4" /> (917) 353-8999
+              <a href="tel:+17186866550" className="flex items-center gap-2 text-gray-300 hover:text-gold transition-colors">
+                <Phone className="w-4 h-4" /> (718) 686-6550
               </a>
               <a href="mailto:mohsin1997@yahoo.com" className="flex items-center gap-2 text-gray-300 hover:text-gold transition-colors">
                 <Mail className="w-4 h-4" /> mohsin1997@yahoo.com
               </a>
               <div className="flex items-center gap-2 text-gray-300">
-                <MapPin className="w-4 h-4 flex-shrink-0" /> 75 Harden St, Brooklyn, NY 11234
+                <MapPin className="w-4 h-4 flex-shrink-0" /> 63 Church Avenue, Brooklyn, NY 11218
               </div>
               <div className="flex items-center gap-2 text-gray-300">
                 <Clock className="w-4 h-4" /> Mon-Sat: 7AM - 7PM

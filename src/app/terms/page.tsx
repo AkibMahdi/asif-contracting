@@ -70,8 +70,8 @@ export default function TermsPage() {
             <li><strong>Message Frequency:</strong> 1-2 messages per form submission. This is not a recurring subscription.</li>
             <li><strong>Message and Data Rates:</strong> Message and data rates may apply. Check with your wireless carrier for details.</li>
             <li><strong>Opt-Out:</strong> You may opt out at any time by replying <strong>STOP</strong> to any message. You will receive a confirmation message and no further texts will be sent.</li>
-            <li><strong>Help:</strong> For assistance, reply <strong>HELP</strong> to any message or call us at (917) 353-8999.</li>
-            <li><strong>Support Contact:</strong> mohsin1997@yahoo.com or (917) 353-8999</li>
+            <li><strong>Help:</strong> For assistance, reply <strong>HELP</strong> to any message or call us at (718) 686-6550.</li>
+            <li><strong>Support Contact:</strong> mohsin1997@yahoo.com or (718) 686-6550</li>
             <li>Your consent to receive text messages is not a condition of purchasing any services.</li>
             <li>Your phone number will not be shared with third parties for marketing purposes.</li>
             <li>Compatible carriers include but are not limited to AT&amp;T, T-Mobile, Verizon, and Sprint. Carriers are not liable for delayed or undelivered messages.</li>
@@ -119,9 +119,9 @@ export default function TermsPage() {
           <p className="text-gray-700 leading-relaxed mb-6">
             If you have any questions about these Terms of Service, please contact us at:<br />
             <strong>Asif Contracting Corp</strong><br />
-            Phone: (917) 353-8999<br />
+            Phone: (718) 686-6550<br />
             Email: mohsin1997@yahoo.com<br />
-            75 Harden St, Brooklyn, NY 11234
+            63 Church Avenue, Brooklyn, NY 11218
           </p>
         </div>
       </section>

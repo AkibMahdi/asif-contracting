@@ -36,9 +36,9 @@ export default function Header() {
             <span>Serving All 5 Boroughs + Nassau County</span>
           </div>
           <div className="flex items-center gap-4">
-            <a href="tel:+19173538999" className="flex items-center gap-1 hover:text-gold-light transition-colors">
+            <a href="tel:+17186866550" className="flex items-center gap-1 hover:text-gold-light transition-colors">
               <Phone className="w-3.5 h-3.5" />
-              (917) 353-8999
+              (718) 686-6550
             </a>
             <span>Mon-Sat: 7AM - 7PM</span>
           </div>
@@ -120,9 +120,9 @@ export default function Header() {
 
             {/* CTA + Mobile Toggle */}
             <div className="flex items-center gap-3">
-              <a href="tel:+19173538999" className="hidden sm:flex items-center gap-2 text-navy font-bold">
+              <a href="tel:+17186866550" className="hidden sm:flex items-center gap-2 text-navy font-bold">
                 <Phone className="w-5 h-5" />
-                (917) 353-8999
+                (718) 686-6550
               </a>
               <Link
                 href="/get-quote"
@@ -192,8 +192,8 @@ export default function Header() {
               <Link href="/contact" className="block px-3 py-2.5 text-gray-700 font-medium rounded-lg hover:bg-gray-50" onClick={() => setMobileOpen(false)}>Contact</Link>
 
               <div className="pt-3 border-t border-gray-100 space-y-3">
-                <a href="tel:+19173538999" className="flex items-center gap-2 px-3 py-2 text-navy font-bold">
-                  <Phone className="w-5 h-5" /> (917) 353-8999
+                <a href="tel:+17186866550" className="flex items-center gap-2 px-3 py-2 text-navy font-bold">
+                  <Phone className="w-5 h-5" /> (718) 686-6550
                 </a>
                 <Link
                   href="/get-quote"

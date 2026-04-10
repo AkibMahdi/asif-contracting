@@ -92,11 +92,11 @@ export default function GetQuotePage() {
               <div className="mt-8 flex items-center gap-4">
                 <span className="text-gray-400 text-sm">Prefer to talk?</span>
                 <a
-                  href="tel:+19173538999"
+                  href="tel:+17186866550"
                   className="inline-flex items-center gap-2 bg-white text-navy px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  Call (917) 353-8999
+                  Call (718) 686-6550
                 </a>
               </div>
             </div>
@@ -183,11 +183,11 @@ export default function GetQuotePage() {
               Fill Out the Form Above
             </a>
             <a
-              href="tel:+19173538999"
+              href="tel:+17186866550"
               className="flex items-center gap-2 border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors"
             >
               <Phone className="w-5 h-5" />
-              (917) 353-8999
+              (718) 686-6550
             </a>
           </div>
         </div>

@@ -204,10 +204,10 @@ export default function BlogPage() {
               Get a Free Estimate
             </Link>
             <a
-              href="tel:+19173538999"
+              href="tel:+17186866550"
               className="border-2 border-navy text-navy px-8 py-3 rounded-lg font-semibold hover:bg-navy hover:text-white transition-colors whitespace-nowrap text-center"
             >
-              Call (917) 353-8999
+              Call (718) 686-6550
             </a>
           </div>
           <p className="text-xs text-gray-400 mt-3">Free estimates. No obligation.</p>
