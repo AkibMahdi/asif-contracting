@@ -75,9 +75,9 @@ export default function AboutPage() {
             <Image
               src="/logo.png"
               alt="Asif Contracting Corp"
-              width={400}
-              height={267}
-              className="max-h-48 w-auto"
+              width={600}
+              height={400}
+              className="max-h-64 w-auto"
             />
           </div>
         </div>

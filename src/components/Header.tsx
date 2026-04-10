@@ -55,9 +55,9 @@ export default function Header() {
               <Image
                 src="/logo.png"
                 alt="Asif Contracting Corp"
-                width={200}
-                height={133}
-                className="h-14 w-auto"
+                width={300}
+                height={200}
+                className="h-16 md:h-20 w-auto"
                 priority
               />
             </Link>
