@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
 
 const services = [
@@ -50,14 +51,15 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3">
-              <div className="w-12 h-12 gradient-navy rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">AC</span>
-              </div>
-              <div className="leading-tight">
-                <div className="text-navy font-bold text-lg tracking-tight">ASIF CONTRACTING</div>
-                <div className="text-xs text-gray-500 tracking-wider uppercase">Corp. | Est. 2000</div>
-              </div>
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logo.png"
+                alt="Asif Contracting Corp"
+                width={200}
+                height={133}
+                className="h-14 w-auto"
+                priority
+              />
             </Link>
 
             {/* Desktop Nav */}

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { CheckCircle, Shield, Award, Users, Building2, ArrowRight, Star, Clock } from 'lucide-react';
 import TrustBadges from '@/components/TrustBadges';
 import CTASection from '@/components/CTASection';
@@ -70,14 +71,14 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          <div className="bg-navy/5 rounded-2xl h-80 lg:h-[420px] flex items-center justify-center">
-            <div className="text-center px-8">
-              <div className="w-20 h-20 gradient-navy rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-3xl">AC</span>
-              </div>
-              <p className="text-navy font-bold text-xl">Asif Contracting Corp</p>
-              <p className="text-gray-500 mt-2">Brooklyn, NY — Serving NYC & Nassau County</p>
-            </div>
+          <div className="bg-navy/5 rounded-2xl h-80 lg:h-[420px] flex items-center justify-center p-8">
+            <Image
+              src="/logo.png"
+              alt="Asif Contracting Corp"
+              width={400}
+              height={267}
+              className="max-h-48 w-auto"
+            />
           </div>
         </div>
       </section>
