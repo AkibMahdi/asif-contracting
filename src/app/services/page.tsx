@@ -124,14 +124,14 @@ export default function ServicesPage() {
                 </Link>
               </div>
               <div
-                className={`bg-gray-100 rounded-2xl h-72 md:h-96 overflow-hidden relative ${index % 2 !== 0 ? 'lg:col-start-1' : ''}`}
+                className={`bg-white rounded-2xl h-72 md:h-96 overflow-hidden relative border border-gray-100 ${index % 2 !== 0 ? 'lg:col-start-1' : ''}`}
               >
                 {service.image ? (
                   <Image
                     src={encodeURI(service.image.src)}
                     alt={service.image.alt}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     sizes="(min-width: 1024px) 50vw, 100vw"
                     priority={service.href === '/services/home-improvement'}
                   />
