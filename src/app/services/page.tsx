@@ -16,6 +16,7 @@ const services = [
     features: ['Custom home builds & renovations', 'Backsplash & countertops', 'Wood fences & garage construction', 'Paving, driveways & sidewalks', 'Fire damage restoration'],
     href: '/services/home-improvement',
     icon: Home,
+    image: 'public/service_photos/Home renovation consultation in bright space.png',
   },
   {
     title: 'New Construction',
