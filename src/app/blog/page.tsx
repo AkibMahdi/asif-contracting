@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Clock, Tag } from 'lucide-react';
 import CTASection from '@/components/CTASection';
@@ -17,6 +18,10 @@ const posts = [
     category: 'Cost Guides',
     readTime: '8 min read',
     date: 'March 15, 2026',
+    image: {
+      src: '/blog_photos/Modern kitchen with NYC skyline view.png',
+      alt: 'Modern kitchen with NYC skyline view',
+    },
   },
   {
     slug: 'nyc-dob-permits-homeowner-guide',
@@ -25,6 +30,10 @@ const posts = [
     category: 'Permits & Regulations',
     readTime: '10 min read',
     date: 'March 8, 2026',
+    image: {
+      src: '/blog_photos/NYC DOB permit paperwork details.png',
+      alt: 'NYC DOB permit paperwork details',
+    },
   },
   {
     slug: 'bathroom-remodel-nyc-timeline',
@@ -33,6 +42,10 @@ const posts = [
     category: 'Renovation Guides',
     readTime: '7 min read',
     date: 'February 28, 2026',
+    image: {
+      src: '/blog_photos/Modern NYC bathroom remodel showcase.png',
+      alt: 'Modern NYC bathroom remodel showcase',
+    },
   },
   {
     slug: 'hiring-contractor-nyc-red-flags',
@@ -41,6 +54,10 @@ const posts = [
     category: 'Hiring Tips',
     readTime: '6 min read',
     date: 'February 20, 2026',
+    image: {
+      src: '/blog_photos/Construction site red flags in NYC.png',
+      alt: 'Construction site red flags in NYC',
+    },
   },
   {
     slug: 'brownstone-renovation-guide-brooklyn',
@@ -49,6 +66,10 @@ const posts = [
     category: 'Renovation Guides',
     readTime: '12 min read',
     date: 'February 12, 2026',
+    image: {
+      src: '/blog_photos/Renovated Brooklyn brownstone living room.png',
+      alt: 'Renovated Brooklyn brownstone living room',
+    },
   },
   {
     slug: 'best-roi-home-improvements-nyc',
@@ -57,6 +78,10 @@ const posts = [
     category: 'Investment',
     readTime: '5 min read',
     date: 'February 5, 2026',
+    image: {
+      src: '/blog_photos/Home improvement planning in NYC.png',
+      alt: 'Home improvement planning in NYC',
+    },
   },
   {
     slug: 'coop-condo-renovation-rules-nyc',
@@ -65,6 +90,10 @@ const posts = [
     category: 'Permits & Regulations',
     readTime: '9 min read',
     date: 'January 28, 2026',
+    image: {
+      src: '/blog_photos/Co-op vs. Condo signs in NYC.png',
+      alt: 'Co-op vs. Condo signs in NYC',
+    },
   },
   {
     slug: 'basement-conversion-nyc-legal-requirements',
@@ -73,6 +102,10 @@ const posts = [
     category: 'Renovation Guides',
     readTime: '8 min read',
     date: 'January 20, 2026',
+    image: {
+      src: '/blog_photos/Modern NYC basement conversion design.png',
+      alt: 'Modern NYC basement conversion design',
+    },
   },
   {
     slug: 'winter-vs-summer-construction-nyc',
@@ -81,6 +114,10 @@ const posts = [
     category: 'Planning',
     readTime: '6 min read',
     date: 'January 12, 2026',
+    image: {
+      src: '/blog_photos/Winter vs. summer construction in NYC.png',
+      alt: 'Winter vs. summer construction in NYC',
+    },
   },
   {
     slug: 'new-construction-vs-renovation-nyc',
@@ -89,12 +126,18 @@ const posts = [
     category: 'Planning',
     readTime: '7 min read',
     date: 'January 5, 2026',
+    image: {
+      src: '/blog_photos/Renovate or build new_.png',
+      alt: 'Renovate or build new',
+    },
   },
 ];
 
 const categories = ['All', 'Cost Guides', 'Renovation Guides', 'Permits & Regulations', 'Hiring Tips', 'Planning', 'Investment'];
 
 export default function BlogPage() {
+  const featuredImageSrc = encodeURI(posts[0].image.src);
+
   return (
     <>
       <section className="gradient-navy py-20 md:py-28">
@@ -134,8 +177,15 @@ export default function BlogPage() {
           {/* Featured Post */}
           <div className="mb-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
-              <div className="bg-gray-100 min-h-[300px] flex items-center justify-center text-gray-400 font-medium">
-                Featured Image
+              <div className="bg-gray-100 min-h-[300px] relative">
+                <Image
+                  src={featuredImageSrc}
+                  alt={posts[0].image.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  priority
+                />
               </div>
               <div className="p-8 flex flex-col justify-center">
                 <div className="flex items-center gap-3 mb-3">
@@ -162,8 +212,14 @@ export default function BlogPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {posts.slice(1).map((post) => (
               <article key={post.slug} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow group">
-                <div className="bg-gray-100 h-48 flex items-center justify-center text-gray-400 text-sm font-medium">
-                  Article Image
+                <div className="bg-gray-100 h-48 relative">
+                  <Image
+                    src={encodeURI(post.image.src)}
+                    alt={post.image.alt}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-3 mb-3">
