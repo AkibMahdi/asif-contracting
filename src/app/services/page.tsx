@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Home, Building2, Wrench, PencilRuler, Paintbrush, HardHat, ArrowRight } from 'lucide-react';
 import CTASection from '@/components/CTASection';
@@ -16,7 +17,10 @@ const services = [
     features: ['Custom home builds & renovations', 'Backsplash & countertops', 'Wood fences & garage construction', 'Paving, driveways & sidewalks', 'Fire damage restoration'],
     href: '/services/home-improvement',
     icon: Home,
-    image: 'public/service_photos/Home renovation consultation in bright space.png',
+    image: {
+      src: '/service_photos/Home renovation consultation in bright space.png',
+      alt: 'Home renovation consultation in a bright space',
+    },
   },
   {
     title: 'New Construction',
@@ -24,6 +28,10 @@ const services = [
     features: ['Custom home builds', 'Medium multi-family new construction', 'Other residential new construction', 'Full DOB permit management', 'Foundations & excavation'],
     href: '/services/new-construction',
     icon: Building2,
+    image: {
+      src: '/service_photos/new_construction.png',
+      alt: 'New construction project in NYC',
+    },
   },
   {
     title: 'Remodeling',
@@ -31,6 +39,10 @@ const services = [
     features: ['Kitchen remodeling', 'Bathroom renovations', 'Basement remodeling', 'Multi-room remodels', 'Medium multi-family remodel'],
     href: '/services/remodeling',
     icon: Wrench,
+    image: {
+      src: '/service_photos/remodeling_construction.png',
+      alt: 'Remodeling and renovation work in progress',
+    },
   },
   {
     title: 'Alterations',
@@ -38,6 +50,10 @@ const services = [
     features: ['Structural alterations (Type I)', 'Non-structural alterations (Type II)', 'Load-bearing wall removal', 'Floor plan reconfiguration', 'Egress modifications'],
     href: '/services/alterations',
     icon: PencilRuler,
+    image: {
+      src: '/service_photos/alterations_construction.png',
+      alt: 'Building alterations and structural work',
+    },
   },
   {
     title: 'Interior Work',
@@ -45,6 +61,10 @@ const services = [
     features: ['Drywall & interior plaster', 'Hardwood, laminate & tile flooring', 'Carpets & other flooring', 'Framing & demolition', 'Stonework & other stone/tile'],
     href: '/services/interior-work',
     icon: Paintbrush,
+    image: {
+      src: '/service_photos/interior_construction.png',
+      alt: 'Interior construction and finishing work',
+    },
   },
   {
     title: 'Exterior Work',
@@ -52,6 +72,10 @@ const services = [
     features: ['Roofing', 'Brick, blockwork & other masonry', 'Gutters & flashing', 'Skylights', 'Excavation, grading & site work'],
     href: '/services/exterior-work',
     icon: HardHat,
+    image: {
+      src: '/service_photos/exterior_construction.png',
+      alt: 'Exterior construction work on a NYC property',
+    },
   },
 ];
 
@@ -99,8 +123,19 @@ export default function ServicesPage() {
                   Learn More <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
-              <div className={`bg-gray-100 rounded-2xl h-72 md:h-96 flex items-center justify-center text-gray-400 font-medium ${index % 2 !== 0 ? 'lg:col-start-1' : ''}`}>
-                {service.title} Photo
+              <div
+                className={`bg-gray-100 rounded-2xl h-72 md:h-96 overflow-hidden relative ${index % 2 !== 0 ? 'lg:col-start-1' : ''}`}
+              >
+                {service.image ? (
+                  <Image
+                    src={encodeURI(service.image.src)}
+                    alt={service.image.alt}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 50vw, 100vw"
+                    priority={service.href === '/services/home-improvement'}
+                  />
+                ) : null}
               </div>
             </div>
           ))}
